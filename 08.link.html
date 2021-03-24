@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>Links</title>
+        <style>
+body{
+    background-color: black;
+    color: white;
+}           
+a:hover{
+    color:red;
+
+}
+a:link{
+    color:rgb(164, 69, 69);
+    text-decoration: none;
+
+}
+span{
+    display: block;
+}
+p.position_static{
+    position:static;
+    top: 30px;
+    right: 5px;
+    color:red;
+}
+p.position_fixed{
+    position:fixed;
+    top: 0px;
+    right:0px;
+    color:teal;
+    background-color: tomato;
+    body
+}
+p.test1{
+    width: 350px;
+    border: 1px white;
+    position: fixed;
+}
+img.test2{
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+img.test3{
+    width: 150px;
+    height: 150px;
+    float: left;
+    display:;
+}
+.floating{
+    float: left;
+    overflow: scroll;
+    background-color: gray;
+}
+
+div.menuArriba{
+    width: auto;
+    height: auto;
+    background-color: tomato;
+    position:fixed;
+    top: 0px;
+    right:0px;
+}
+
+img.imagenMenu{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+
+}
+
+
+
+
+
+        </style>
+    </head>
+<body>
+
+    <p><a href="http://www.sololearn.com" target="_blank">
+        This link is hovered when we mouse over it
+     </a></p>
+
+<p><span style= "cursor:help;">Do you need help?</span></p>
+
+<span>Prueba 1</span>
+<span>Prueba 2</span>
+<span>Prueba 3</span>
+<span>Prueba 4</span>
+<p>Paragraph with no position.</p>
+<p class="position_static">This paragraph has a static position.</p>
+<p class="position_fixed">Esto está fijo.</p>
+
+
+
+    
+    <p><img class="test2"src="juego-terminado.png" />
+        This paragraph has an image that is floated to the <strong>right.</strong> 
+        It is highly recommended to add a margin to images so that the text does 
+        not get too close to the image. If you want your text to be easily read, you 
+        should always add a few pixels between words and borders, images, 
+        and other content. 
+        </p>
+        <br /><br />
+        <br /><br />
+        This paragraph is above the div element 
+        and is not affected by the float right property. 
+        <br /><br />
+        <br /><br />
+        <div class="floating">
+           <img class="test3"src="juego-terminado.png" />
+
+           Y aquí pueden haber muchas cosas.
+        </div>
+       
+        <p>This paragraph comes after the div element 
+        and is affected by the float right property. 
+        </p>
+        <br /><br />
+        This paragraph also comes after the div element
+        and is affected by the float right property.
+        <br /> <br />
+
+        <div class="menuArriba">
+            
+            <img class="imagenMenu"src="juego-terminado.png">
+            Esto es una prueba.
+        </div>
+</body>
+
+
+</html>

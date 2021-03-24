@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3D</title>
+        <style>
+            body{
+                background-image: url("espacio1.png");
+                background-position: bottom;
+                background-clip: contain;
+                color: cornsilk;
+            }
+            div.x{
+            width: 100px;
+            height: 50px;
+            background-color: none;
+            animation-duration: 3s;
+           transform:
+            animation-name: Veamos;
+            color: cornsilk;
+            }
+            div.y{
+                transform: rotateY(150deg);
+            }
+            div.z{
+                transform: rotateZ(150deg);
+            }
+            @keyframes Veamos {
+                from{ transform: rotateX(100deg)};
+                to{ transform:rotateX(150deg)};
+              
+            }
+
+            </style>
+            </head>
+
+            <body>
+                <div class="x">RotateX</div>
+
+
+            </body>
+</html>
